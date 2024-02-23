@@ -1,0 +1,22 @@
+1} Created 3 netwrok using command 
+(docker network create dev)
+(docker network create prod)
+(docker network create uat)
+
+
+
+2} Creted container inside the network
+docker run -d --name dev1 --network dev nginx
+docker run -d --name prod1 --network prod nginx
+docker run -d --name uat1 --network uat nginx
+
+
+
+3}Ceated a custom_bridge for communicating the container
+
+4} Executed a command to check the connection between container
+docker exec -it uat1 curl http://dev1
+docker exec -it uat1 curl http://prod1
+docker exec -it uat1 curl http://uat1
+
+
