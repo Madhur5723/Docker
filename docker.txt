@@ -1,0 +1,4 @@
+What is Docker?
+Docker is a free and open platform that offers an immersive experience to developers working on various aspects of software development. It is a containerization platform that allows developers to package code into various deployable units called containers. Docker Engine is the software that oversees the hosting of the containers. The subset of the Moby Project, Docker, helps developers build, run, and deploy containers on the server and the cloud. The container contains a builder, engine, and orchestrator to deliver a seamless application that runs in any environment. 
+
+Docker is preferred by developers working on individual projects as it offers a lightweight environment for testing. It comes with both free and premium tiers. Docker was initially released in 2013 and is written in Go. 

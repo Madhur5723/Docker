@@ -1,0 +1,20 @@
+Docker version
+Docker search 
+Docker pull
+Docker run 
+Docker ps
+Docker stop 
+Docker restart 
+Docker kill
+Docker exec 
+Docker login
+Docker commit 
+Docker push 
+Docker network 
+Docker history 
+Docker rmi 
+Docker ps -a
+Docker copy
+Docker logs   
+Docker volume 
+Docker logout 
