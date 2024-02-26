@@ -1,0 +1,14 @@
+Create docker file where create MySQL database with Root user an
+d 
+User name: proejct_user
+Database name: project_db
+Password: project_password
+All database data will not lost after delete container.	
+
+Create a Dockerfile:-
+Create a sqlfile:-
+run docker bulid command:-
+docker build -t mysql_project .
+
+run docker container:-
+docker run -d -p 3306:3306 --name mysql_container -v mysql_data:/var/lib/mysql mysql_project
