@@ -1,5 +1,4 @@
-Create docker file where create MySQL database with Root user an
-d 
+Create docker file where create MySQL database with Root user and 
 User name: proejct_user
 Database name: project_db
 Password: project_password
